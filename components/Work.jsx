@@ -40,7 +40,7 @@ const Work = () => {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: false, amount: 0.8 }}
+          viewport={{ once: false, amount: 0.2 }}
           className="text-center max-w-[540px] mx-auto xl:mb-20"
         >
           <Pretitle text="Our Work" center />
@@ -57,7 +57,7 @@ const Work = () => {
         variants={fadeIn("up", 0.3)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.8 }}
+        viewport={{ once: false, amount: 0.2 }}
         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4"
       >
         {workData.map((item, index) => {
